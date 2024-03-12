@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!----NAVBAR-->  
+  <section class="header">
+    <img src="images/logo1.jpg" >
+    <div>
+        <ul id="navbar">
+            <i  id="close" class="fa fa-times"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+    <div class="mobile">
+      <i id="bar" class="fa fa-bars"></i>
+    </div>
+  </section>
+  <!---BG-->
+  <section class="cart-header">
+    <h5>#Cart</h5>
+    <p>Add your coupon</p>
+  </section>
+  <!----Total-->
+  <section class="t-cart">
+    <table width="100%">
+      <thead> 
+        <tr>
+            <td>REMOVE</td>
+            <td>PRODUCT</td>
+            <td>PRICE</td>
+            <td>TYPE</td>
+            <td>SUBTOTAL</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td><i class="fa fa-times-circle-o"></i></td>
+            <td>Lenovo</td>
+            <td>Shs. 40,000</td>
+            <td><select name="sel" id="sel">
+                <option value="1">HP</option>
+                <option value="2" selected>Lenovo </option>
+                <option value="3">Dell</option>
+                <option value="4"></option>
+            </select></td>
+            <td>Shs. 40,000</td>
+        </tr>
+        <tr>
+            <td><i class="fa fa-times-circle-o"></i></td>
+            <td>Lenovo</td>
+            <td>Shs. 40,000</td>
+            <td><select name="sel" id="sel">
+                <option value="1">HP</option>
+                <option value="2" selected>Lenovo </option>
+                <option value="3">Dell</option>
+                <option value="4"></option>
+            </select></td>
+            <td>Shs. 40,000</td>
+        </tr>
+        <tr>
+            <td><i class="fa fa-times-circle-o"></i></td>
+            <td>Lenovo</td>
+            <td>Shs. 40,000</td>
+            <td><select name="sel" id="sel">
+                <option value="1">HP</option>
+                <option value="2" selected>Lenovo </option>
+                <option value="3">Dell</option>
+                <option value="4"></option>
+            </select></td>
+            <td>Shs. 40,000</td>
+        </tr>
+        <tr>
+            <td><i class="fa fa-times-circle-o"></i></td>
+            <td>Lenovo</td>
+            <td>Shs. 40,000</td>
+            <td><select name="sel" id="sel">
+                <option value="1">HP</option>
+                <option value="2" selected>Lenovo </option>
+                <option value="3">Dell</option>
+                <option value="4"></option>
+            </select></td>
+            <td>Shs. 40,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+ 
+  <!----Add Cart-->
+  <section class="add-cart">
+    <div class="add">
+        <h1>Apply Product</h1>
+        <div class="apply-cart">
+            <input type="text" name="apply" id="" placeholder="Enter Your Coupon">
+            <button>Apply</button>
+        </div>
+    </div>
+    <div class="pro-total">
+        <h1>Cart Subtotals</h1>
+        <table>
+            <tr>
+                <td> cart totals</td>
+                <td>Shs. 40,000</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>TOTALS</strong></td>
+                <td><strong>Shs. 40,000</strong></td>
+            </tr>
+        </table>
+    </div>
+  </section>
+<!-----FOOTER-->
+<footer>
+<div class="foot">
+  <div class="foot-contact">
+    <img src="images/logo1.jpg" >
+    <div class="contact-col">
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> xxxxxx@gmail.com</p>
+      <p><strong>Phone:</strong> 07xxxxxxxx</p>
+    </div>
+    <div class="media">
+      <p class="follow">Follow Us</p>
+      <i class="fa fa-facebook" ></i>
+      <i class="fa fa-instagram" ></i>
+      <i class="fa fa-twitter" ></i>
+      <i class="fa fa-linkedin" ></i>
+    </div>
+  </div>
+  <div class="about-f">
+    <h4>About</h4>
+    <div class="link-f">
+      <a href="#">about Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+  <div class="about-f">
+    <h4>My Account</h4>
+    <div class="link-f">
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">Help</a>
+      
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <p>&copy;2024, powered by yegontech - <span>Computing devices</span></p>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
